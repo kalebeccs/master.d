@@ -1,0 +1,33 @@
+.agenda {
+    padding: 3rem 0;
+    background-image: url('../../img/background.jpg');
+    background-size: cover;
+    min-height: calc(100vh - 5.5rem);
+    position: relative;
+    z-index: -1;
+}
+.agenda__title {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.agenda__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.agenda__item {
+    display: flex;
+    gap: 1.25rem;
+    color: var(--white-color);
+}
+
+.agenda_date {
+    font-size: 1.5rem;
+}
+
+.agenda__local span {
+    color: var(--black-color);
+}

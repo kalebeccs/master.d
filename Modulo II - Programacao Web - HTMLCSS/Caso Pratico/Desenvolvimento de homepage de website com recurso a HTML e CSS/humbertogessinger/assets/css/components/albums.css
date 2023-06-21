@@ -1,0 +1,42 @@
+.albums {
+    padding: 3rem 0;
+    min-height: calc(100vh - 5.5rem);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: var(--shadow-soft);
+}
+
+.albums__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.albums__title {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 3rem;
+}
+
+.albums__description {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.albums__cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.25rem;
+    height: 100%;
+}
+
+.card__title {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.card__img {
+    width: 100%;
+    box-shadow: var(--shadow-soft);
+}

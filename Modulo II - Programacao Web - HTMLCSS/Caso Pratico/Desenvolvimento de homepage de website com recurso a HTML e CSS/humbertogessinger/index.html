@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Humberto Gessinger</title>
+    <meta name="author" content="kalebeccs">
+    <meta name="description" content="Site referente ao caso pratico do modulo II do curso Avancado em Desenho e Programacao de Websites, onde escolhi criar um site de um cantor que gosto: Humberto Gessinger">
+    <meta name="keywords" content="Humberto Gessinger, humbertogessinger, nao vejo a hora, pra caramba, insular">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <img class="nav__logo" src="./assets/img/logo.png" alt="Logo Gessinger Humberto">
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="index.html">Home</a></li>
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Albuns <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <ul class="dropdown__menu">
+                            <li><a href="#" class="dropdown__link">Nao Vejo a Hora</a></li>
+                            <li><a href="#" class="dropdown__link">Ao Vivo Pra Caramba</a></li>
+                            <li><a href="#" class="dropdown__link">Insular(Ao Vivo)</a></li>
+                            <li><a href="#" class="dropdown__link">Insular</a></li>
+                            <li><a href="#" class="dropdown__link">Gessinger + Leindecker</a></li>
+                            <li><a href="#" class="dropdown__link">Humberto Gessinger Trio</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav__link" href="#agenda">Agenda</a></li>
+                    <li><a class="nav__link" href="#contact">Contato</a></li>
+                </ul>
+                <div class="nav__search">
+                    <label for="nav-input">
+                        <i class="fa-solid fa-magnifying-glass nav__search--icon"></i>
+                    </label>
+                    <input class="nav__input" id="nav-input" type="text" placeholder="Digite aqui...">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="bio">
+            <img class="bio__banner" src="https://scontent.flis11-1.fna.fbcdn.net/v/t39.30808-6/298828601_5464224453615757_3633553094707818019_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFC6IDEf4t5OYVo-nW4p5fSvfVpd0SabuO99Wl3RJpu4xTUjyaRGtmenXPPP-O9qrdhjSvmBX1xw1VT3ucqKVXd&_nc_ohc=g09gogyQrzEAX8Y5EbZ&_nc_ht=scontent.flis11-1.fna&oh=00_AfATzx5QxJ5NSIfhP862vUou83bZB8jdo78_hnaivjBVdg&oe=64936ECA" alt="Banner Humberto Gessinger em cima do palco com vista para a plateia em preto e branco">
+            <div class=" bio__data container">
+                <img class="bio__img" src="./assets/img/perfil.jpg" alt="Foto de perfil de Humberto Gessinger">
+                <div class="bio__info">
+                    <h1 class="bio__title">
+                        Humberto Gessinger
+                    </h1>
+                    <p class="bio__content">
+                        <i class="fa-solid fa-quote-left"></i> Cantor, compositor, multi-instrumentista e escritor brasileiro, conhecido especialmente por ter fundado a banda Engenheiros do Hawaii. Desde 2013, lanca discos e faz shows como parte de sua carreira solo, tendo como estilo musical predominante o rock buscando exaltar o regionalismo gaucho incluindo em suas musicas instrumentos como a gaita, a viola caipira, o bandolim e o acordeao. <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="albums">
+            <div class="albums__info container">
+                <h2 class="albums__title">Albuns</h2>
+                <p class="albums__description">
+                    Disponivel tambem nas plataformas digitais
+                    <span>
+                        <i class="fa-brands fa-spotify"></i>
+                        <i class="fa-brands fa-apple"></i>
+                        <i class="fa-brands fa-deezer"></i>
+                    </span>
+                </p>
+            </div>
+            <div class="albums__cards container">
+                <div class="card">
+                    <h3 class="card__title">Nao Vejo a Hora</h3>
+                    <a href="https://open.spotify.com/album/40EgsT425SFKXgtJp2yTnf?si=y8BWTiDWQPyVj_jwL9fW_g" target="_blank">
+                        <img class="card__img" src="./assets/img/disc/nao-vejo-a-hora.webp" alt="Album Nao Vejo a Hora">
+                    </a>
+                </div>
+                <div class="card">
+                    <h3 class="card__title">Pra Caramba</h3>
+                    <a href="https://open.spotify.com/track/4kWouMe4gaAdcahvW7PEdx?si=313101c94b1242bc" target="_blank">
+                        <img class="card__img" src="./assets/img/disc/ao-vivo-pra-caramba.webp" alt="Album Pra Caramba Ao Vivo">
+                    </a>
+                </div>
+                <div class="card">
+                    <h3 class="card__title">Insular</h3>
+                    <a href="https://open.spotify.com/album/36xOajoRCELs4tlsNr29vt?si=-Qs9zQ-BRWKIZrOCmJXR3Q" target="_blank">
+                        <img class="card__img" src="./assets/img/disc/insular.webp" alt="Album Insular">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="agenda" id="agenda">
+            <div class="container">
+                <h2 class="agenda__title">Agenda</h2>
+            <ul class="agenda__list">
+                <li class="agenda__item">
+                    <span class="agenda_date">23/06</span>
+                    <div class="agenda__local">
+                        Santo André, SP<br>
+                        <span>Aramaçan</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">24/06</span>
+                    <div class="agenda__local">
+                        Mogi das Cruzes, SP<br>
+                        <span>Mogi Stage Hall</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">07/07</span>
+                    <div class="agenda__local">
+                        Juiz de Fora, MG<br>
+                        <span>Terrazzo</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">09/07</span>
+                    <div class="agenda__local">
+                        Santa Cruz do Rio Pardo, SP<br>
+                        <span>	Rock Rio Pardo</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">11/07</span>
+                    <div class="agenda__local">
+                        Crato, CE<br>
+                        <span>ExpoCrato</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">15/07</span>
+                    <div class="agenda__local">
+                        Belo Horizonte, MG<br>
+                        <span>Prime Rock Brasil - Belo Horizonte</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">16/07</span>
+                    <div class="agenda__local">
+                        Itapira, SP<br>
+                        <span>Parque Juca Mulato</span>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <span class="agenda_date">05/09</span>
+                    <div class="agenda__local">
+                        Manaus<br>
+                        <span>Porto de Manaus - Roadway</span>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__data container">
+                <div class="contact__links">
+                    <h2 class="contact__title">Contato para shows</h2>
+                    <a href="tel:+552132472525">21 3247 2525</a>
+                    <img class="contact__estreia" src="https://humbertogessinger.com.br/wp-content/themes/humberto-theme/images/logo-estreia.png" alt="Logo Estreia Producoes">
+                    <a href="www.estreiaproducoes.com.br">www.estreiaproducoes.com.br</a>
+                    <a href="mailto:contato@estreiaproducoes.com.br">contato@estreiaproducoes.com.br</a>
+                </div>
+                <div class="contact__message">
+                    <h2 class="contact__title">
+                        Envie-nos uma mensagem...
+                    </h2>
+                    <form class="contact__form">
+                        <div class="contact__field">
+                            <label class="form__label" for="contact-name">Seu Nome</label>
+                            <input class="form__input" id="contact-name" type="text" placeholder="Nome">
+                        </div>
+                        <div class="contact__field">
+                            <label class="form__label" for="contact-email">Seu Email</label>
+                            <input class="form__input" id="contact-email" type="email" placeholder="Email">
+                        </div>
+                        <div class="contact__field">
+                            <label class="form__label" for="contact-message">Mensagem</label>
+                            <textarea class="form__textarea" id="contact-message" rows="4" placeholder="Digite aqui..."></textarea>
+                        </div>
+                        <button class="form__button" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__data container">
+            <p>
+                Criado por <a class="footer__author" href="https://github.com/kalebeccs" target="_blank">kalebeccs</a>
+            </p>
+            <div class="footer__media">
+                <a class="footer__link" href="https://www.facebook.com/humbertogessingeroficial" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="footer__link" href="https://www.instagram.com/1gessinger/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="footer__link" href="https://twitter.com/1bertogessinger" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="footer__link" href="https://www.youtube.com/user/hgessingeroficial" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/aaede7ec50.js" crossorigin="anonymous"></script>
+</body>
+</html>

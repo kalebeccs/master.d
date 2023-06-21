@@ -1,0 +1,56 @@
+@import url(./components/header.css);
+@import url(./components/bio.css);
+@import url(./components/albums.css);
+@import url(./components/agenda.css);
+@import url(./components/contact.css);
+@import url(./components/footer.css);
+
+@font-face {
+    font-family: American;
+    src: url('../font/AmericanTypewriterStd-Med.ttf');
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../font/OpenSans.ttf');
+}
+
+:root {
+    --body-color: #adafb3;
+    --black-color: #000;
+    --white-color: #fff;
+    --black-color-light: #1d1d1d;
+    --white-color-dark: #adadad;
+    --body-font: OpenSans, sans-serif;
+    --title-font: American, sans-serif;
+    --shadow-soft: 0 2px 16px rgba(0, 0, 0, .3);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--body-color);
+    font-family: var(--body-font);
+    min-height: calc(100vh - 5.5rem);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    margin-top: 5.5rem;
+}
