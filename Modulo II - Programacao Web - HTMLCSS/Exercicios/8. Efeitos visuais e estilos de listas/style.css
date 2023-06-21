@@ -1,0 +1,38 @@
+ol {
+    background-color: #fcba02;
+    padding: 20px;
+    padding-left: 50px;
+}
+.roman {
+    list-style: upper-roman;
+}
+ol li {
+    background-color: #f8dc92;
+    padding: 10px;
+}
+
+ul{
+    background-color: #628fb8;
+    padding: 20px;
+    list-style-position: inside;
+}
+.square {
+    list-style-type: square;
+}
+ul li {
+    background-color: #afc9e0;
+    padding: 10px;
+}
+
+/* ul {
+    background: #618fb8;
+    padding: 20px;
+    list-style-position:inside;
+    }
+    .square{
+    list-style-type: square;
+    }
+    ul li{
+    background-color: #afc9e0;
+    padding:10px;
+    }  */

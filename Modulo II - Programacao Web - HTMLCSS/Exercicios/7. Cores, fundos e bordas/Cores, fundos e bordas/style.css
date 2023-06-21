@@ -1,0 +1,67 @@
+.caixa-header {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://imgcom.masterd.es/31/wp-content/uploads/2018/05/masterd-laranja.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -50px;
+}
+.slogan {
+    text-align: center;
+    color: #f67b42;
+    font-size: 32px;
+    padding-top: 125px;
+}
+.slogan span {
+    font-style: italic;
+}
+.caixa1 {
+ background-image: url('https://www.myamericannurse.com/wp-content/uploads/2018/02/key-competencies-nurse-ant.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-bottom: 30px;
+}
+.master-title {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+}
+.master-title span {
+    font-style: italic;
+}
+.parag-1 {
+    text-align: center;
+    font-size: 32px;
+    color: #f67b42;
+    background-color: rgba(255,255,255,0.7);
+}
+.parag-2 {
+    text-align: center;
+}
+.botao {
+    text-decoration:  none;
+    color: black;
+    background-color: #f67b42;
+    border: white 1px solid;
+    padding: 10px;
+}
+.caixa2 {
+    margin-top: 30px;
+    border-style: dotted;
+    border-color: #f67b42;
+    background-color: #f7eee9;
+}
+.caixa2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7cab7;
+    border-left: #f67b42 10px solid;
+    margin-left: 20px;
+}
+.caixa2 span {
+    font-style: italic;
+}
+.caixa2 li{
+    line-height: 28px;
+}

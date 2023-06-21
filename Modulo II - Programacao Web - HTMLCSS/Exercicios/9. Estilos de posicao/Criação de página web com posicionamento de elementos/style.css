@@ -1,0 +1,41 @@
+.cabecalho h2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #89a7d9;
+    color: white;
+}
+.container {
+    position: relative;
+}
+.container img{
+    width: 100%;
+    opacity: 50%
+}
+.topleft, .topright, .bottomleft, .bottomright, .center {
+    position: absolute;
+    font-size: 18px;
+}
+.topleft {
+    top: 8px;
+    left: 16px;
+}
+.topright {
+    top: 8px;
+    right: 16px;
+}
+.bottomleft {
+    bottom: 8px;
+    left: 16px;
+}
+.bottomright {
+    bottom: 8px;
+    right: 16px;
+}
+.center {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
